@@ -23,18 +23,22 @@ function startApp() {
 
 function isChild() {
     console.log("Is child");
+    document.querySelector("body").classList.add("blue");
 }
 
 function isAdult() {
     console.log("Is adult");
+    document.querySelector("body").classList.add("green");
 }
 
 function isSenior() {
     console.log("Is senior");
+    document.querySelector("body").classList.add("red");
 }
 
 function isUnborn() {
     console.log("Is unborn");
+    document.querySelector("body").classList.add("yellow");
 }
 
 startApp();
